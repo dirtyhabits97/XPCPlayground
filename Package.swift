@@ -18,5 +18,8 @@ let package = Package(
         .testTarget(
             name: "XPCSquirrelTests",
             dependencies: ["XPCSquirrel"]),
+        .target(
+            name: "ServiceProvider",
+            dependencies: []),
     ]
 )
